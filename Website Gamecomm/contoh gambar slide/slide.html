@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Carousel</title>
+    <link rel="stylesheet" href="slide.css">
+</head>
+<body>
+
+    <!-- Carousel Wrapper -->
+    <div class="carousel">
+        <div class="slides">
+            <!-- Slide 1 -->
+            <input type="radio" name="radio-btn" id="radio1" checked>
+            <div class="slide first">
+                <img src="https://i.pinimg.com/736x/49/5c/08/495c089001b96447ebe33e7764bc7161.jpg" alt="Image 1">
+            </div>
+            <!-- Slide 2 -->
+            <input type="radio" name="radio-btn" id="radio2">
+            <div class="slide">
+                <img src="https://i.pinimg.com/736x/49/5c/08/495c089001b96447ebe33e7764bc7161.jpg" alt="Image 2">
+            </div>
+            <!-- Slide 3 -->
+            <input type="radio" name="radio-btn" id="radio3">
+            <div class="slide">
+                <img src="https://i.pinimg.com/736x/49/5c/08/495c089001b96447ebe33e7764bc7161.jpg" alt="Image 3">
+            </div>
+            <!-- Slide 4 -->
+            <input type="radio" name="radio-btn" id="radio4">
+            <div class="slide">
+                <img src="image4.jpg" alt="Image 4">
+            </div>
+
+            <!-- Navigation Buttons (Auto) -->
+            <div class="nav-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+                <div class="auto-btn4"></div>
+            </div>
+        </div>
+
+        <!-- Manual Navigation -->
+        <div class="manual-nav">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+            <label for="radio4" class="manual-btn"></label>
+        </div>
+    </div>
+
+</body>
+</html>
